@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Contact — Astroship</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="brand" href="../index.html">Astro<span>ship</span></a>
+            <nav class="nav-links">
+                <a class="features-link" href="../index.html#features">Features <span class="chevron">⌄</span></a>
+                <a href="../pages/pricing.html">Pricing</a><a href="../pages/about.html">About</a><a
+                    href="../pages/blog.html">Blog</a><a href="../pages/contact.html">Contact</a>
+                <a class="pro" href="#">Pro Version <span class="new">NEW</span></a>
+            </nav>
+            <div class="auth"><a href="#">Log in</a><a class="signup" href="#">Sign up</a></div>
+        </div>
+    </header>
+    <main>
+        <section class="inner-hero">
+            <h1>Contact</h1>
+            <p>We'd love to hear from you.</p>
+        </section>
+        <section class="contact">
+            <div class="contact-grid">
+                <div class="contact-copy">
+                    <h2>Get in touch with us.</h2>
+                    <p>Have a question, feedback, or want to work together? Send us a message and our team will get back
+                        to you.</p>
+                    <p><strong>Email:</strong> hello@astroship.example</p>
+                    <p><strong>Phone:</strong> +1 234 567 890</p>
+                    <p><strong>Office:</strong> 123 Astro Street, Lahore</p>
+                </div>
+                <form class="form" id="contactForm" novalidate>
+                    <div class="form-status" id="formStatus" role="alert" hidden></div>
+                    <div class="field">
+                        <label for="cName">Name</label>
+                        <input type="text" id="cName" name="name" placeholder="Your name">
+                        <span class="field-error" id="cNameError"></span>
+                    </div>
+                    <div class="field">
+                        <label for="cEmail">Email</label>
+                        <input type="email" id="cEmail" name="email" placeholder="Your email">
+                        <span class="field-error" id="cEmailError"></span>
+                    </div>
+                    <div class="field">
+                        <label for="cMessage">Message</label>
+                        <textarea id="cMessage" name="message" placeholder="Write your message..."></textarea>
+                        <span class="field-error" id="cMessageError"></span>
+                    </div>
+                    <button class="btn btn-black" type="submit" id="contactSubmit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="site-footer">
+        <div>Copyright © 2025 Astroship. All rights reserved.</div>
+        <div class="made">Made by Web3Templates</div>
+    </footer>
+    <script src="../js/main.js" defer></script>
+</body>
+
+</html>
