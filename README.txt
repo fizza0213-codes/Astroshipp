@@ -1,4 +1,4 @@
-Astroship Clone — HTML, CSS & JavaScript
+Astroship — HTML, CSS & JavaScript
 =========================================
 
 Open index.html in a browser to view the site. Home, Pricing, About, Blog,
